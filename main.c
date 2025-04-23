@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int sub(int a, int b)
+{
+	return a - b;
+}
+
 int add_numbers(int x, int y)
 {
     int tmp;
