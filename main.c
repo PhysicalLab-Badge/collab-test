@@ -1,4 +1,9 @@
 #include <stdio.h>
+#include "multiply.h"
+
+// review #2
+static int s_multi_x = 15;
+static int g_multi_y = 4;
 
 int sub(int a, int b)
 {
@@ -45,6 +50,8 @@ int main(void)
     {
         printf("두 수의 차이는 음수입니다.\n");
     }
+    int multi_result = multiply(s_multi_x, g_multi_y);
+    printf("Multi : %d\n", multi_result);
 
     return 0;
 }
