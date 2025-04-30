@@ -1,13 +1,26 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include "multiply.h"
 
 // review #2
 static int s_multi_x = 15;
 static int g_multi_y = 4;
 
+bool cmp(int a, int b)
+{
+    if (a > b)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
 int sub(int a, int b)
 {
-    return a - b;
+	return a - b;
 }
 
 int add_numbers(int x, int y)
@@ -19,7 +32,7 @@ int add_numbers(int x, int y)
 
 int main(void)
 {
-    int a, b, c, d;
+    int a, b, c;
 
     printf("Hello World!\n");
     printf("두 수를 입력하세요.\n");
@@ -35,7 +48,7 @@ int main(void)
     {
         printf("10 미만\n");
     }
-
+  
     d = sub(a, b);
 
     if (d > 0)
@@ -52,6 +65,15 @@ int main(void)
     }
     int multi_result = multiply(s_multi_x, g_multi_y);
     printf("Multi : %d\n", multi_result);
+
+    if (cmp(a, b) == true)
+    {
+        printf("a is greater than b! :)");
+    }
+    else
+    {
+        printf("a is not greater than b! :(");
+    }
 
     return 0;
 }
