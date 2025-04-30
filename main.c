@@ -1,4 +1,17 @@
 #include <stdio.h>
+#include <stdbool.h>
+
+bool cmp(int a, int b)
+{
+    if (a > b)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
 
 int sub(int a, int b)
 {
@@ -29,6 +42,15 @@ int main(void)
     else
     {
         printf("10 미만\n");
+    }
+
+    if (cmp(a, b) == true)
+    {
+        printf("a is greater than b! :)");
+    }
+    else
+    {
+        printf("a is not greater than b! :(");
     }
 
     return 0;
