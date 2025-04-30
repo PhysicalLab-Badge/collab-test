@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "multiply.h"
+
+// review #2
+static int s_multi_x = 15;
+static int g_multi_y = 4;
 
 bool cmp(int a, int b)
 {
@@ -43,6 +48,23 @@ int main(void)
     {
         printf("10 미만\n");
     }
+  
+    d = sub(a, b);
+
+    if (d > 0)
+    {
+        printf("두 수의 차이는 양수입니다.\n");
+    }
+    else if (d == 0)
+    {
+        printf("두 수의 차이는 0입니다.\n");
+    }
+    else
+    {
+        printf("두 수의 차이는 음수입니다.\n");
+    }
+    int multi_result = multiply(s_multi_x, g_multi_y);
+    printf("Multi : %d\n", multi_result);
 
     if (cmp(a, b) == true)
     {
