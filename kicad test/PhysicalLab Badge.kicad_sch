@@ -1,0 +1,518 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c1d535de-c69e-4b3a-ae26-ffedca8d9a48")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 233.68 194.31)
+		(size 52.07 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1912231e-e863-47f0-b583-357aff7167df")
+		(property "Sheetname" "PHY"
+			(at 233.68 192.9634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PHY.kicad_sch"
+			(at 233.68 219.5326 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 48.26)
+		(size 57.15 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b20c514-149e-435d-944c-6bd563ff98dc")
+		(property "Sheetname" "JoyStick"
+			(at 302.26 46.9134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JoyStick.kicad_sch"
+			(at 302.26 83.6426 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 55.88)
+		(size 66.04 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c6cdd53-30d9-435e-ac38-2a32e1a5baa5")
+		(property "Sheetname" "DDR3L SDRAM"
+			(at 45.72 54.5334 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3L SDRAM.kicad_sch"
+			(at 45.72 89.9926 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 111.76)
+		(size 44.45 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4893265d-f912-4259-91ed-d790c8d8e5fc")
+		(property "Sheetname" "SPI Flash"
+			(at 48.26 110.4134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPI Flash.kicad_sch"
+			(at 48.26 136.9826 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 101.6)
+		(size 55.88 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ac1bb0a-8b87-487b-9a35-598352bff3de")
+		(property "Sheetname" "Push Button"
+			(at 302.26 100.2534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Push Button.kicad_sch"
+			(at 302.26 133.1726 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 213.36)
+		(size 67.31 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cd6e6d1-5be4-4aca-903b-a3b0c6cc690c")
+		(property "Sheetname" "JTAG"
+			(at 36.83 212.0134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JTAG.kicad_sch"
+			(at 36.83 241.1226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 187.96)
+		(size 90.17 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fd98cd0-ad60-4635-babf-b43db4b88421")
+		(property "Sheetname" "Dislpay"
+			(at 125.73 186.6134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Dislpay.kicad_sch"
+			(at 125.73 234.7726 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 307.34 213.36)
+		(size 49.53 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bcdc5ed-3563-46bc-baed-b1e3d1d9baae")
+		(property "Sheetname" "RJ45 Ethernet"
+			(at 307.34 212.0134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RJ45 Ethernet.kicad_sch"
+			(at 307.34 237.3126 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 153.67)
+		(size 71.12 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f10d1ba-4c16-4974-bc13-491b83b48d90")
+		(property "Sheetname" "Micro SD"
+			(at 303.53 152.3234 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Micro SD.kicad_sch"
+			(at 303.53 190.3226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 76.2)
+		(size 116.84 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b564bae1-4c6c-4d47-8b06-3165951137ce")
+		(property "Sheetname" "MPU"
+			(at 138.43 74.8534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU.kicad_sch"
+			(at 138.43 148.4126 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 167.64)
+		(size 66.04 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5765412-f8a4-466e-904b-6ad345bea038")
+		(property "Sheetname" "UART"
+			(at 36.83 166.2934 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART.kicad_sch"
+			(at 36.83 190.3226 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 240.03)
+		(size 33.02 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fdd0a66d-5623-4d83-8966-c693b7b22658")
+		(property "Sheetname" "XTAL"
+			(at 246.38 238.6834 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XTAL.kicad_sch"
+			(at 246.38 257.6326 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PhysicalLab Badge"
+				(path "/c1d535de-c69e-4b3a-ae26-ffedca8d9a48"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
