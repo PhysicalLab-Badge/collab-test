@@ -7918,6 +7918,102 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 287.02 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93de0d64-4c48-4ed7-9270-7de51f013fbe")
+	)
+	(wire
+		(pts
+			(xy 331.47 243.84) (xy 325.12 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077830eb-b1a8-4f6c-b31e-097f7d32a6ea")
+	)
+	(wire
+		(pts
+			(xy 325.12 243.84) (xy 325.12 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d13c1e-f196-45a7-9509-be62591ead7f")
+	)
+	(wire
+		(pts
+			(xy 325.12 237.49) (xy 320.04 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c5cd4a-d5d5-4f20-ad2d-04a923465a9e")
+	)
+	(wire
+		(pts
+			(xy 269.24 261.62) (xy 287.02 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd34a66-64fd-443e-91e6-4193386b630e")
+	)
+	(wire
+		(pts
+			(xy 320.04 237.49) (xy 320.04 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a580b338-a0c0-4ac2-a19e-d1b1b1370aeb")
+	)
+	(wire
+		(pts
+			(xy 331.47 231.14) (xy 331.47 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd94ca5-108e-4d15-aa00-45440208cbd5")
+	)
+	(wire
+		(pts
+			(xy 287.02 261.62) (xy 306.07 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e5662f-70cf-4141-8788-1384fa0e8eae")
+	)
+	(wire
+		(pts
+			(xy 287.02 261.62) (xy 287.02 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e7ceec-9d85-4a87-b832-e9642b2ef7c4")
+	)
+	(bus
+		(pts
+			(xy 339.09 231.14) (xy 339.09 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1698a3-9014-409d-b403-4738e9023fbc")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32MP1:STM32MP151CACx")
 		(at 267.97 147.32 270)
